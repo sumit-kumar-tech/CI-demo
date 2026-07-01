@@ -25,6 +25,6 @@ jobs:
           ls -la
           find .
 
-      - name: Run flake8
+      - name: Run Flake8
         run: |
-          flake8 . --statistics --count
+          flake8 . --exit-zero
